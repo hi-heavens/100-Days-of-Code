@@ -16,7 +16,7 @@ bill_plus_tips = total_bill + tips
 
 to_share = int(input("How many people to split the bill? "))
 
-each_person = round(bill_plus_tips / to_share, 2)
-final_amount = "{:.2f}".format(each_person)
+# each_person = round(bill_plus_tips / to_share, 2)
+final_amount = "{:.2f}".format(bill_plus_tips / to_share)
 
 print(f"Each person should pay: ${final_amount}")
